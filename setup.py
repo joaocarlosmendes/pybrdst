@@ -16,6 +16,7 @@ setup(
     url='https://github.com/joaocarlosmendes/pybrdst',
     download_url='https://github.com/joaocarlosmendes/'
         'pybrdst/releases/tag/v0.1',
+    packages=find_packages(exclude=['test*']),
     license='MIT',
     keywords=['DST',
               'brazilian',
