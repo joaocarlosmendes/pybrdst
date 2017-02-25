@@ -5,6 +5,6 @@ Um simples calculador das datas de início e fim do horário de verão brasileir
 
 ## Instalando
 
-'''bash
+```bash
 pip install pybrdst
-'''
+```
