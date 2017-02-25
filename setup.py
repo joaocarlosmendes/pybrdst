@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 
 from distutils.core import setup
+
+with open('requirements.txt') as reqs:
+    requirements = reqs.read().split()
+
 setup(
     name='pybrdst',
     packages=['pybrdst'],  # this must be the same as the name above
