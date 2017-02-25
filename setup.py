@@ -14,7 +14,7 @@ setup(
     author='João Carlos Mendes',
     author_email='joaocarlos.tmendes@gmail.com',
     url='https://github.com/joaocarlosmendes/pybrdst',
-    download_url='https://github.com/joaocarlosmendes/pybrdst/releases/tag/0.1',
+    download_url='https://github.com/joaocarlosmendes/pybrdst/releases/tag/0.1',  # noqa
     license='MIT',
     keywords=['DST',
               'brazilian',
