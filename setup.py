@@ -22,8 +22,8 @@ setup(
               'brazilian',
               'daylight',
               'saving',
-              'horário',
-              'verão',
+              'horario',
+              'verao',
               'brasileiro'],
     classifiers=[
         'Development Status :: 3 - Alpha',
