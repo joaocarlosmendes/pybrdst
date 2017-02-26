@@ -2,9 +2,13 @@
 
 from distutils.core import setup
 from setuptools import find_packages
+import pypandoc
 
-with open('README.md') as f:
-    long_description = f.read()
+try:
+    long_description = pypandoc.convert('README.md', 'rst')
+except (IOError, ImportError):
+    with open('README.md') as f:
+        long_description = f.read()
 
 setup(
     name='pybrdst',
