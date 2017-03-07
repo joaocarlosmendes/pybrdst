@@ -45,7 +45,7 @@ print(end)
 2017-02-19 00:00:00
 ```
 
-#### Obtendo a data do Páscoa:
+#### Obtendo a data da Páscoa:
 
 ```python
 from pybrdst.pybrdst import PyBrDST
